@@ -1,0 +1,20 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/api/*",
+      "/estático/*",
+      "/favicon.ico"
+    ]
+  },
+ "networking": {
+    "allowedIpRanges": [
+      "200.175.246.180/32",
+      "189.5.179.207/32",
+      "191.58.136.144/32"
+    ]
+  },
+  "allowedOrigins": [
+    "https://green-mud-02d40e01e.3.azurestaticapps.net"
+  ]
+}
